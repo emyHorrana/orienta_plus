@@ -20,6 +20,8 @@ app.listen(PORT, () => {
 });
 app.get("/unidades", (req, res) => {
   res.json([
+    
+//Aqui é só um exemplo, depois a gente vai puxar do banco de dados
     {
       nome: "UBS Central",
       lat: -22.2,

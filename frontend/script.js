@@ -1,3 +1,6 @@
+//Descobrir onde o usuário está e colocar um balãozinho na localização dele 
+// Para isso usa a biblioteca chamada Leaflet
+
 const map = L.map('map');
 
 function iniciarMapa(lat, lng) {

@@ -1,3 +1,8 @@
+//Era para funcionar assim: vai no mapa real, puxa todos os hospitais daquela região e joga 
+// para dentro da tabela unidades do banco de dados. 
+// Aí a gente pode puxar do banco para o front depois. Mas não consegui fazer funcionar, 
+// então deixei só o código aqui para mostrar a ideia.
+
 const axios = require("axios");
 const db = require("./db");
 
